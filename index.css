@@ -1,0 +1,153 @@
+/***************************************************************
+NavBar
+****************************************************************/
+.nav-wrapper {
+    background-color: #2b477d ;
+}
+
+/***************************************************************
+Parallex Section
+****************************************************************/
+.parallax-bg3 {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+}
+.bg3-1 {
+    margin: 0 auto;
+    max-width: 1920px;
+    position: relative;
+    width: 100%;
+}
+
+.parallaxHeader {
+    color: #CC0000;
+    text-shadow: 3px 3px 0px #000;
+    font-family: 'Russo One', sans-serif;
+}
+
+.heightPar {
+      height: 700px;
+}
+
+#projectsContainer {
+  height: 400px;
+}
+
+.parallex-height {
+  height: 400px;
+}
+.parallax-title-right {
+    color: #000000;
+    text-shadow: 2px 2px 0px #FFFFFF;
+    margin-left: 600px;
+    margin-top: 100px;
+    text-decoration: underline;
+}
+.parallax-title-left {
+    color: #000000;
+    text-shadow: 2px 2px 0px #FFFFFF;
+    margin-left: 50px;
+    margin-top: 100px;
+    text-decoration: underline;
+}
+
+
+/***************************************************************
+Main Headers
+****************************************************************/
+.headerBtn {
+    width: 100%;
+    background-color: #000000;
+}
+
+.headerBtn:hover {
+    background-color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*FLICKITY CAROUSEL*/
+/* external css: flickity.css */
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body { font-family: sans-serif; }
+
+.gallery {
+  background: #EEE;
+}
+
+.gallery-cell {
+  width: 28%;
+  height: 200px;
+  margin-right: 10px;
+  background: #8C8;
+  counter-increment: gallery-cell;
+}
+
+.gallery-cell.is-selected {
+  background: #ED2;
+}
+
+/* cell number */
+.gallery-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(gallery-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+
+
+
+
+
+/*OTHER*/
+/* external css: flickity.css */
+
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+.carousel {
+  background: #EEE;
+}
+
+.carousel-cell {
+  width: 66%;
+  height: 200px;
+  margin-right: 10px;
+  background: #8C8;
+  border-radius: 5px;
+  counter-increment: carousel-cell;
+}
+
+/* cell number */
+.carousel-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(carousel-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}

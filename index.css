@@ -6,12 +6,20 @@ body {
 }
 
 
-
 /***************************************************************
 NavBar
 ****************************************************************/
 .nav-wrapper {
     background-color: #2b477d ;
+}
+
+.fa-bars {
+  padding-left: 20px;
+}
+
+.logoHeader {
+  height: 70px;
+  width: 95px;
 }
 
 /***************************************************************
@@ -46,6 +54,9 @@ Parallex Section
 
 .parallex-height {
   height: 400px;
+}
+.parallex-height1 {
+  height: 600px;
 }
 .parallax-title-right {
     color: #000000;

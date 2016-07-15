@@ -53,10 +53,10 @@ Parallex Section
 }
 
 .parallex-height {
-  height: 400px;
+  height: 480px;
 }
 .parallex-height1 {
-  height: 600px;
+  height: 550px;
 }
 .parallax-title-right {
     color: #000000;
@@ -85,6 +85,53 @@ Main Headers
 .headerBtn:hover {
     background-color: #000000;
 }
+
+
+
+
+/***************************************************************
+Modal
+****************************************************************/
+.modal {
+    background-color: #FFFFFF;
+}
+
+.modal-trigger {
+    cursor: pointer;
+}
+
+.modal-height {
+    height: 500px;
+}
+
+.modal-img {
+    height: 100%;
+    width: 100%;
+    padding-top: 15px;
+    border-style: solid;
+    border-color: #d7d7d7;
+    border-width: 1px;
+    background-color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
